@@ -61,7 +61,7 @@ GEM
     ffi (1.15.5)
     ffi (1.15.5-java)
     ffi (1.15.5-x64-mingw32)
-    ffi (1.15.5-x64-unknown)
+
     ffi (1.15.5-x86-mingw32)
     font-awesome-sass (4.6.2)
       sass (>= 3.2)
@@ -189,15 +189,8 @@ GEM
     websocket-extensions (0.1.5)
 
 PLATFORMS
-      turbolinks-unknown
-      websocket-unknown
-    turbolinks-unknown
-    tzinfo-unknown
-    web-unknown
-    websocket-unknown
   java
   ruby
-  unknown
   x64-mingw32
   x86-mingw32
   x86-mswin32
