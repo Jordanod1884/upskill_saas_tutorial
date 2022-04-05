@@ -68,3 +68,15 @@ h1, h2, h3 {
 .home-signup-links{
   marigin-top: 30px;
 }
+
+.flash-container{
+  position: absolute;
+  width: 100%;
+}
+
+.alert-alert{
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255,255,255,0.5);
+  margin-top: -14px;
+}
