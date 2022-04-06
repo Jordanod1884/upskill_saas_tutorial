@@ -16,7 +16,13 @@ class User < ApplicationRecord
     if valid?
       #Add plan: plan_id, and investigate further how to start customer subscription
       customer = Stripe::Customer.create(description: email, card: stripe_card_token)
-      self.stripe_customer_token = customer.id
+      #self.stripe_customer_token = customer.
+      subscription = Stripe::Subscription.create(
+          customer: customer.id, 
+          items: [{
+            plan: 'price_1KlEAtLhkcNsxXPypnKTWcqy' # the plan or price ID from dashboard.stripe.com
+          }]
+        )
       save!
     end
   end
