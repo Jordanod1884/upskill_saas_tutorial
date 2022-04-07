@@ -3,6 +3,17 @@
     height: 128px;
 }
 
+.flag-icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: green;
+    color: black;
+    text-align: center;
+}
+
 .well.profile-block{
     color: #fff;
     h3{

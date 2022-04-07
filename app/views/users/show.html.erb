@@ -6,7 +6,7 @@
         
         <div class = "col-md-6">
         <h1><%= @user.profile.first_name %> <%= @user.profile.last_name %></h1>
-        <h3><%= @user.profile.club_name %></h3>
+        <h3><span class = "flag-icon"><i class="fa fa-futbol-o" aria-hidden="true"></i></span><%= @user.profile.club_name %></h3>
         <div class = "well profile-block profile-description" >
             <h3>Description</h3>
             <%= @user.profile.description %>
